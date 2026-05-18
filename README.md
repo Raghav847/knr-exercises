@@ -1,33 +1,39 @@
 # K&R Exercises
 
-Solutions to exercises from *The C Programming Language* by Brian Kernighan and Dennis Ritchie (2nd Edition).
+Repository for working through exercises from *The C Programming Language* by Brian Kernighan and Dennis Ritchie (2nd Edition).
 
 ## Structure
+
+```text
 knr-exercises/
-├── ch01/   # Chapter 1
-├── ch02/   # Chapter 2
-├── ch03/   # Chapter 3
-├── ch04/   # Chapter 4
-├── ch05/   # Chapter 5
-├── ch06/   # Chapter 6
-├── ch07/   # Chapter 7
-├── ch08/   # Chapter 8
+├── ch01/      # Chapter 1 exercises
+├── ch02/      # Chapter 2 exercises
+├── ch03/      # Chapter 3 exercises
+├── ch04/      # Chapter 4 exercises
+├── ch05/      # Chapter 5 exercises
+├── ch06/      # Chapter 6 exercises
+├── ch07/      # Chapter 7 exercises
+├── ch08/      # Chapter 8 exercises
 ├── Makefile
 └── README.md
-
-## Usage
-
-Compile any exercise:
-```bash
-make ch01/ex1-1
 ```
 
-Run it:
+The chapter directories are currently scaffolds for organizing solutions by chapter.
+
+## Building
+
+The `Makefile` is set up to build a program from its matching `.c` file path.
+
+Example:
+
 ```bash
+make ch01/ex1-1
 ./ch01/ex1-1
 ```
 
+This expects a source file at `ch01/ex1-1.c`.
+
 ## Requirements
 
-- GCC
-- Make
+- `gcc`
+- `make`
