@@ -27,4 +27,9 @@ experiments/*
 !ch08/*.c
 !experiments/*.c
 
+*.o
+*.out
+*.exe
+*.bin
 a.out
+experiments/strView
