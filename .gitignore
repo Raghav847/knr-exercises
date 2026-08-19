@@ -6,6 +6,7 @@ ch05/*
 ch06/*
 ch07/*
 ch08/*
+experiments/*
 
 !ch01/.gitkeep
 !ch02/.gitkeep
@@ -24,5 +25,6 @@ ch08/*
 !ch06/*.c
 !ch07/*.c
 !ch08/*.c
+!experiments/*.c
 
 a.out
